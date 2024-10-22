@@ -53,7 +53,7 @@ export default function ProjectsComponents() {
                   PupShops
                 </h3>
                 <p className="mt-2">
-                  <span className="tracking-wider text-gray-900">Ecommerce</span>
+                  <span className="tracking-wider text-gray-900">Ecommerce   </span>
                 </p>
               </div>
             </Link>
@@ -77,7 +77,7 @@ export default function ProjectsComponents() {
                   Basic
                 </h3>
                 <p className="mt-2">
-                  <span className="tracking-wider text-gray-900">Appointments</span>
+                  <span className="tracking-wider text-gray-900">Ecommerce</span>
                 </p>
               </div>
             </Link>
@@ -100,7 +100,7 @@ export default function ProjectsComponents() {
                   Basic
                 </h3>
                 <p className="mt-2">
-                  <span className="tracking-wider text-gray-900">Appointments</span>
+                  <span className="tracking-wider text-gray-900">Ecommerce</span>
                 </p>
               </div>
             </Link>

@@ -40,3 +40,26 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Cambios para dispositivos pequeños */
+@media (max-width: 640px) {
+  body {
+    padding: 10px; /* Añadir padding para dispositivos pequeños */
+    margin: 0; /* Asegúrate de que el margen sea 0 para el body */
+  }
+
+  nav {
+    padding: 0 10px; /* Añadir padding en el navbar */
+  }
+
+  .container {
+    padding: 0 10px; /* Padding adicional para el contenedor */
+  }
+
+  /* Ajustar enlaces y botones */
+  a, button {
+    padding: 8px 12px; /* Aumentar el padding en enlaces y botones */
+    display: block; /* Hacer que los enlaces ocupen todo el ancho */
+    width: 100%; /* Asegurar que ocupen el 100% del contenedor */
+  }
+}
