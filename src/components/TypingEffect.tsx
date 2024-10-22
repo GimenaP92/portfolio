@@ -2,7 +2,7 @@ import React from 'react';
 
 const TypingEffect: React.FC = () => {
   return (
-    <div className="relative inline-block text-white text-2xl">
+    <div className="relative inline-block text-white  text-center text-base">
       <span className="animate-typing overflow-hidden whitespace-nowrap">
         {'Full Stack Web Developer'}
       </span>

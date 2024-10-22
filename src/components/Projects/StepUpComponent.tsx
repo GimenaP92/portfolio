@@ -20,13 +20,13 @@ export default function StepUpComponent() {
           </p>
         </div>
 
-        <div className="rounded-lg border border-gray-200 p-4 shadow-md text-center transition-transform transform hover:shadow-lg hover:scale-105 cursor-pointer">
-          <h3 className="text-lg font-semibold text-gray-800">Características</h3>
-          <ul className="mt-2 text-gray-600 list-disc list-inside">
-            <li>Productos organizados por categorías.</li>
-            <li>Visualización de productos por ID.</li>
-            <li>Añadir productos al carrito.</li>
-            <li>Eliminación automática de productos al completar la compra.</li>
+        <div className="rounded-lg border border-gray-200 p-4 shadow-md  transition-transform transform hover:shadow-lg hover:scale-105 cursor-pointer">
+          <h3 className="text-lg font-semibold text-center text-gray-800">Características</h3>
+          <ul className="mt-2 text-gray-600 list-none">
+            <li>- Productos organizados por categorías.</li>
+            <li>- Visualización de productos por ID.</li>
+            <li>- Añadir productos al carrito.</li>
+            <li>- Eliminación automática de productos al completar la compra.</li>
           </ul>
         </div>
         <div className="rounded-lg border border-gray-200 p-4 shadow-md text-center transition-transform transform hover:shadow-lg hover:scale-105 cursor-pointer">
@@ -41,7 +41,7 @@ export default function StepUpComponent() {
 
         <div className="rounded-lg border border-gray-200 p-4 shadow-md text-center transition-transform transform hover:shadow-lg hover:scale-105 cursor-pointer">
           <h3 className="text-lg font-semibold text-gray-800">Enlaces</h3>
-          <ul className="mt-2 text-gray-600 list-disc list-inside">
+          <ul className="mt-2 text-gray-600 list-none">
             <li>
               <a
                 href="https://www.linkedin.com/posts/gimena-pascuale_quiero-presentarles-un-breve-recorrido-por-activity-7254140635132162048-i9_-?utm_source=share&utm_medium=member_desktop"
@@ -49,7 +49,7 @@ export default function StepUpComponent() {
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
               >
-                Detalles en LinkedIn
+                LinkedIn
               </a>
             </li>
             <li>
@@ -59,7 +59,7 @@ export default function StepUpComponent() {
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
               >
-                Repositorio en GitHub
+               GitHub
               </a>
             </li>
           </ul>

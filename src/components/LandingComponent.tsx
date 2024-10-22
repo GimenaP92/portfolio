@@ -25,7 +25,7 @@ export default function AboutMeComponent() {
           text-white drop-shadow-md
           lg:top-10 lg:right-8"
       >
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight drop-shadow-md">
+        <h1 className="text-2xl text-center md:text-6xl font-bold leading-tight drop-shadow-md">
           Gimena Pascuale
         </h1>
       <div className='flex text-center'>
