@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import ContactMeComponent from './ContactMeComponent';
-import Image from 'next/image';
 
 export default function Navbar() {
   const [activeLink, setActiveLink] = useState('/');
