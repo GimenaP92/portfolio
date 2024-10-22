@@ -1,57 +1,36 @@
-import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function AboutMeComponent() {
   return (
-    <div className="relative h-screen">
-      {/* Contenedor de la imagen con sombra */}
-      <div className="w-full h-full relative drop-shadow-xl">
-        <Image
-          src="https://res.cloudinary.com/dbtfna8ev/image/upload/c_fill,w_2560,h_1440/v1728960769/andrew-neel-cckf4TsHAuw-unsplash_hctkwa.jpg"
-          alt="Imagen presentación, notebook con frase"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="opacity-80"
-        />
-      </div>
+    <div className="absolute inset-0 z-0">
+    <div
+      className="min-h-screen w-full bg-gray-100 p-6 sm:p-8 flex flex-col justify-center items-center text-center sm:text-left"
+    >
+         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-gray-800 drop-shadow-md">
+  About Me
+</h1>
 
-      {/* Título y subtítulo */}
-      <div 
-        className="
-          absolute top-10 right-8 
-          p-4 flex flex-col items-end 
-          text-right space-y-2 
-          text-white drop-shadow-md
-          lg:top-10 lg:right-8"
-      >
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight drop-shadow-md">
-          Gimena Pascuale
-        </h1>
-        <h2 className="text-xl md:text-3xl mt-2 drop-shadow-md">
-          Full Stack Web Developer
-        </h2>
-      </div>
-
-      {/* Enlace "About Me" con flecha */}
-      <div 
-        className="
-          absolute bottom-5 right-5 
-          flex flex-col items-end 
-          p-4 text-white"
-      >
-        <a
-          href="#bio"
-          className="
-            mt-4 inline-flex items-center 
-            font-semibold py-2 px-4 
-            drop-shadow-md transition duration-300 hover:underline
-          "
-        >
-          <span className="text-lg md:text-xl">About Me</span>
-          <span className="ml-2 text-xl">⇩</span>
-        </a>
-      </div>
+      <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl">
+        Soy Gimena, licenciada en Kinesiología y Fisiatría, y me gustaría contarte un poco sobre mí. 
+        Desde que descubrí el mundo de la programación, he encontrado una verdadera pasión por resolver 
+        problemas y transformar ideas en realidades digitales. He aprendido tecnologías como Next.js, React, 
+        y TypeScript, que me permiten expresar mi creatividad y seguir aprendiendo constantemente. También 
+        disfruto trabajar con Express y Node.js en el backend, así como con bases de datos como PostgreSQL 
+        y MongoDB. Fuera de las pantallas, la música y el deporte son mis grandes pasiones; me mantienen 
+        inspirada y actúan como mi cable a tierra. Actualmente, estoy en busca de nuevas oportunidades y 
+        desafíos que me permitan crecer en este emocionante campo. Bienvenido/a a mi portfolio, donde 
+        encontrarás una muestra de mi trabajo. ¡Espero que lo disfrutes!
+      </p>
+      <div className="mt-4 sm:mt-8">
+            <Link
+              href="/projects"
+              className="inline-block rounded-full bg-gray-900  px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+            >
+              Ver Proyectos
+            </Link>
+            </div>
+    </div>
     </div>
   );
 }
