@@ -7,10 +7,15 @@ export default function ProjectsComponents() {
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
-          <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Mis Proyectos</h2>
+          <h2 className="text-xl font-bold text-[var(--foreground)] sm:text-3xl">
+            Mis Proyectos
+          </h2>
 
-          <p className="mx-auto mt-4 max-w-md text-gray-500">
-            ¡Bienvenido a la sección de mis proyectos! Aquí encontrarás una variedad de trabajos en los que he estado trabajando. Algunos de ellos se encuentran en construcción, pero pronto estarán listos para que los explores. Cada uno de estos proyectos ha sido creado con dedicación y amor, reflejando mi pasión por el desarrollo y el diseño. ¡Espero que disfrutes navegando por ellos tanto como yo disfruté creándolos!
+          <p className="mx-auto mt-4 max-w-md text-[var(--foreground)] opacity-70">
+            ¡Bienvenido a la sección de mis proyectos! Aquí encontrarás una variedad de trabajos en los que he estado 
+            trabajando. Algunos de ellos se encuentran en construcción, pero pronto estarán listos para que los explores.
+            Cada uno de estos proyectos ha sido creado con dedicación y amor, reflejando mi pasión por el desarrollo y 
+            el diseño. ¡Espero que disfrutes navegando por ellos tanto como yo disfruté creándolos!
           </p>
         </header>
 
@@ -21,15 +26,17 @@ export default function ProjectsComponents() {
                 src="https://res.cloudinary.com/dbtfna8ev/image/upload/v1729566895/imgStepup_mboyhv.png"
                 alt="Step Up"
                 className="object-cover transition duration-500 group-hover:scale-105"
-                width={1200} 
+                width={1200}
                 height={350}
               />
-              <div className="relative bg-white pt-3">
-                <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              <div className="relative bg-[var(--background)] pt-3">
+                <h3 className="text-xs text-[var(--foreground)] group-hover:underline group-hover:underline-offset-4">
                   Step Up
                 </h3>
                 <p className="mt-2">
-                  <span className="tracking-wider text-gray-900">Ecommerce</span>
+                  <span className="tracking-wider text-[var(--foreground)] font-semibold">
+                    Ecommerce
+                  </span>
                 </p>
               </div>
             </Link>
@@ -47,19 +54,18 @@ export default function ProjectsComponents() {
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white text-lg font-bold">En construcción</span>
               </div>
-              <div className="relative bg-white pt-3">
-                <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+              <div className="relative bg-[var(--background)] pt-3">
+                <h3 className="text-xs text-[var(--foreground)] group-hover:underline group-hover:underline-offset-4">
                   PupShops
                 </h3>
                 <p className="mt-2">
-                  <span className="tracking-wider text-gray-900">Ecommerce</span>
+                  <span className="tracking-wider text-[var(--foreground)] font-semibold">
+                    Ecommerce
+                  </span>
                 </p>
               </div>
             </Link>
           </li>
-       
-
-       
         </ul>
       </div>
     </section>

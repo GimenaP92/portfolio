@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="py-4 relative z-20 bg-opacity-70 bg-gray-900 backdrop-blur-md">
+      <nav className="py-4 mt-0 relative z-20 bg-opacity-70 bg-gray-900 backdrop-blur-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-white">
