@@ -10,7 +10,22 @@ export default function Navbar() {
   const [isProjectsOpen, setIsProjectsOpen] = useState(false);
 
   const toggleContactCard = () => setShowContactCard(!showContactCard); 
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen); 
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+ 
+  const handleOutsideClick = (e: MouseEvent) => {
+    if (e.target instanceof HTMLElement && !e.target.closest('.projects-menu')) {
+      setIsProjectsOpen(false);
+    }
+  };
+
+ 
+  React.useEffect(() => {
+    document.addEventListener('click', handleOutsideClick);
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, []);
 
   return (
     <>
@@ -36,13 +51,10 @@ export default function Navbar() {
             <div className="border-l-2 border-white h-6 mx-2"></div>
 
             {/* Menú desplegable de Projects */}
-            <div 
-              className="relative"
-              onMouseEnter={() => setIsProjectsOpen(true)}
-              onMouseLeave={() => setIsProjectsOpen(false)}
-            >
+            <div className="relative projects-menu">
               <button 
                 className="text-white hover:text-yellow-400 transition duration-300 relative inline-flex items-center"
+                onClick={() => setIsProjectsOpen(!isProjectsOpen)} // Toggle al hacer clic
               >
                 <span className="relative z-10">PROJECTS</span>
               </button>
