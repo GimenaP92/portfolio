@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaReact } from 'react-icons/fa';
+import { SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+
 
 export default function ProjectsComponents() {
   return (
@@ -38,6 +41,12 @@ export default function ProjectsComponents() {
                     Ecommerce
                   </span>
                 </p>
+                <div className="flex space-x-3 mt-2 text-[var(--foreground)]">
+        <FaReact className="text-xl" title="React" />
+        <SiNextdotjs className="text-xl" title="Next.js" />
+        <SiTypescript className="text-xl" title="TypeScript" />
+        <SiTailwindcss className="text-xl" title="Tailwind CSS" />
+      </div>
               </div>
             </Link>
           </li>
