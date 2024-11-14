@@ -36,9 +36,10 @@ export default function DailyProjectsComponents() {
                   </div>
                   <p className='hover:text-yellow-400'>Ver video</p>
                 </div>
-                <div className="w-56 h-56 bg-gray-300 rounded-lg overflow-hidden">
-                  <Image width={400} height={400} src="/images/RegisterForm.png" alt="Imagen de Formulario de Registro" className="w-full h-full object-cover" />
-                </div>
+                <div className="w-56 h-56 bg-gray-300 rounded-lg overflow-hidden sm:block hidden">
+             <Image width={400} height={400} src="/images/RegisterForm.png" alt="Imagen de Formulario de Registro" className="w-full h-full object-cover" />
+            </div>
+
               </div>
             </Link>
           </div>
