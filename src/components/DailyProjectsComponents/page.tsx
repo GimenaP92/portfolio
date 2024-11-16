@@ -37,7 +37,42 @@ export default function DailyProjectsComponents() {
                   <p className='hover:text-yellow-400'>Ver video</p>
                 </div>
                 <div className="w-56 h-56 bg-gray-300 rounded-lg overflow-hidden sm:block hidden">
-             <Image width={400} height={400} src="/images/RegisterForm.png" alt="Imagen de Formulario de Registro" className="w-full h-full object-cover" />
+             <Image width={400} height={400} src="/images/RegisterForm.png"
+              alt="Imagen de Formulario de Registro"
+              className="w-full h-full object-cover" />
+            </div>
+
+              </div>
+            </Link>
+          </div>
+          <div className="group bg-white p-6 border-2 border-gray-300 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:cursor-pointer w-full"> 
+            <Link href="/daily-projects/products" className="text-[var(--foreground)] mt-4 inline-block">
+              <div className="flex items-start space-x-6">
+                <div className="flex-1">
+                  <h3 className="text-lg font-semibold text-[var(--foreground)] mb-2">
+                    Product Page
+                  </h3>
+                  <p className="text-[var(--foreground)] text-sm mb-4">
+                   Esta es una demostración sencilla de cómo crear una página de productos utilizando un mock de datos, con una interfaz intuitiva y                 estilos aplicados con Tailwind CSS.
+                  </p>
+
+                  <div className="flex space-x-3 mb-4 text-[var(--foreground)]">
+                    <FaReact className="text-xl" title="React" />
+                    <SiNextdotjs className="text-xl" title="Next.js" />
+                    <SiTypescript className="text-xl" title="TypeScript" />
+                    <SiTailwindcss className="text-xl" title="Tailwind CSS" />
+                  </div>
+                  <p className='hover:text-yellow-400'>Ver video</p>
+                </div>
+                <div className="w-56 h-56 bg-gray-300 rounded-lg overflow-hidden sm:block hidden">
+                <Image
+                  width={400}
+                  height={400}
+                  src="/images/CardProduct.png"
+                  alt="Productos en cards"
+                  className="w-full h-full object-cover"
+                />
+
             </div>
 
               </div>
