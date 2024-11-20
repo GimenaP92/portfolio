@@ -79,6 +79,40 @@ export default function DailyProjectsComponents() {
             </Link>
           </div>
 
+          <div className="group bg-white p-6 border-2 border-gray-300 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl hover:cursor-pointer w-full"> 
+            <Link href="/daily-projects/quizz" className="text-[var(--foreground)] mt-4 inline-block">
+              <div className="flex items-start space-x-6">
+                <div className="flex-1">
+                  <h3 className="text-lg font-semibold text-[var(--foreground)] mb-2">
+                    Quizz
+                  </h3>
+                  <p className="text-[var(--foreground)] text-sm mb-4">
+                   Primeros pasos con <strong>Strapi.io</strong>, un CMS (Sistema de Gestión de Contenidos) que permite crear esquemas de datos personalizados para el backend. Facilita la conexión con el frontend, proporcionando endpoints.  Los usuarios pueden interactuar con estas preguntas multiple choice y obtener un resultado final basado en sus respuestas.
+                  </p>
+
+                  <div className="flex space-x-3 mb-4 text-[var(--foreground)]">
+                  <img src="/images/logoStrapi.avif" alt="Strapi" className="w-6 h-6" title="Strapi" />
+                    <FaReact className="text-xl" title="React" />
+                    <SiNextdotjs className="text-xl" title="Next.js" />
+                    <SiTypescript className="text-xl" title="TypeScript" />
+                    <SiTailwindcss className="text-xl" title="Tailwind CSS" />
+                  </div>
+                  <p className='hover:text-yellow-400'>Ver video</p>
+                </div>
+                <div className="w-56 h-56 bg-gray-300 rounded-lg overflow-hidden sm:block hidden">
+                <Image
+                  width={400}
+                  height={400}
+                  src="/images/quizz1.png"
+                  alt="Captura de pantalla de examen choice"
+                  className="w-full h-full object-cover"
+                />
+
+            </div>
+
+              </div>
+            </Link>
+          </div>
 
         </div>
       </div>
