@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaReact } from 'react-icons/fa';
-import { SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai, SiStrapi } from 'react-icons/si';
 
 
 export default function ProjectsComponents() {
@@ -51,27 +51,30 @@ export default function ProjectsComponents() {
             </Link>
           </li>
 
-          <li className="relative group">
-            <Link href="/underConstruction" className="block overflow-hidden">
+          <li className="col-span-3">
+            <Link href="https://edtools.com.co/" className="group block overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/dbtfna8ev/image/upload/v1729566567/elvir-k-Xtyh5b5GGX4-unsplash_ckmsm8.jpg"
-                alt="PupShops"
-                className="object-cover transition duration-500 group-hover:scale-105 opacity-100 group-hover:opacity-50"
-                width={400}
+                src="/images/HomeEdtools.png"
+                alt="Step Up"
+                className="object-cover transition duration-500 group-hover:scale-105"
+                width={1200}
                 height={350}
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <span className="text-white text-lg font-bold">En construcción</span>
-              </div>
               <div className="relative bg-[var(--background)] pt-3">
                 <h3 className="text-xs text-[var(--foreground)] group-hover:underline group-hover:underline-offset-4">
-                  PupShops
+                 Edtools
                 </h3>
                 <p className="mt-2">
                   <span className="tracking-wider text-[var(--foreground)] font-semibold">
-                    Ecommerce
+                   Plataforma exámenes inteligentes con OpenAi
                   </span>
                 </p>
+                <div className="flex space-x-3 mt-2 text-[var(--foreground)]">
+        <FaReact className="text-xl" title="React" />
+        <SiStrapi className="text-xl" title="Strapi" />
+        <SiOpenai className="text-xl" title="OpenAI" />
+        <SiTailwindcss className="text-xl" title="Tailwind CSS" />
+      </div>
               </div>
             </Link>
           </li>
