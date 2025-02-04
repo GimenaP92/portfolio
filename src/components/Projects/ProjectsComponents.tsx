@@ -54,7 +54,7 @@ export default function ProjectsComponents() {
           <li className="col-span-3 py-8">
             <Link href="/edtools" className="group block overflow-hidden">
               <Image
-                src="/images/HomeEdtools.png"
+                src="/images/HomeI.png"
                 alt="Step Up"
                 className="object-cover transition duration-500 group-hover:scale-105"
                 width={1200}

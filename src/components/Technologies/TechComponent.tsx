@@ -7,7 +7,7 @@ export default function TechComponent() {
   return (
     <section className="py-28 px-4 flex flex-col items-center relative  text-[var(--foreground)]">
       {/* Link arriba a la izquierda */}
-      <Link href="/projects" className="absolute top-4 left-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition">
+      <Link href="/projects" className="absolute top-4 left-4 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition w-auto">
         Projects
       </Link>
 
