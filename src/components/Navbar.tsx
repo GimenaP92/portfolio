@@ -103,7 +103,7 @@ export default function Navbar() {
             </div>
           )}
 
-            <Link href="/e#technologies" onClick={() => { setActiveLink('/#technologies'); toggleMenu(); }} className="block px-4 py-2 hover:bg-gray-700">
+            <Link href="/#technologies" onClick={() => { setActiveLink('/#technologies'); toggleMenu(); }} className="block px-4 py-2 hover:bg-gray-700">
                         TECHNOLOGIES
           </Link>
 

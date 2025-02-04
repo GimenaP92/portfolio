@@ -23,7 +23,7 @@ export default function ProjectsComponents() {
         </header>
 
         <ul className="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <li className="col-span-3">
+          <li className="col-span-3 py-8">
             <Link href="/projects/stepUp" className="group block overflow-hidden">
               <Image
                 src="https://res.cloudinary.com/dbtfna8ev/image/upload/v1729566895/imgStepup_mboyhv.png"
@@ -32,8 +32,8 @@ export default function ProjectsComponents() {
                 width={1200}
                 height={350}
               />
-              <div className="relative bg-[var(--background)] pt-3">
-                <h3 className="text-xs text-[var(--foreground)] group-hover:underline group-hover:underline-offset-4">
+               <div className="relative bg-[var(--background)] pt-3">
+               <h3 className="text-xs text-[var(--foreground)] group-hover:underline group-hover:underline-offset-4">
                   Step Up
                 </h3>
                 <p className="mt-2">
