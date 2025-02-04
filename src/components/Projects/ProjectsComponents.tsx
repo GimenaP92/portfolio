@@ -51,8 +51,8 @@ export default function ProjectsComponents() {
             </Link>
           </li>
 
-          <li className="col-span-3">
-            <Link href="https://edtools.com.co/" className="group block overflow-hidden">
+          <li className="col-span-3 py-8">
+            <Link href="/edtools" className="group block overflow-hidden">
               <Image
                 src="/images/HomeEdtools.png"
                 alt="Step Up"
@@ -77,6 +77,15 @@ export default function ProjectsComponents() {
       </div>
               </div>
             </Link>
+            <div className="pt-2 relative group">
+  <Link 
+    href="https://edtools.com.co/" 
+    className="text-blue-600 transition-all duration-300 ease-in-out group-hover:text-blue-400"
+  >
+    Visitar página
+  </Link>
+</div>
+
           </li>
         </ul>
       </div>

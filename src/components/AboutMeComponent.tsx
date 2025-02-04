@@ -12,7 +12,8 @@ export default function AboutMeComponent() {
 </h1>
 
       <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl">
-        Soy Gimena, licenciada en Kinesiología y Fisiatría, y me gustaría contarte un poco sobre mí. 
+        
+        👋 Hola, soy Gimena y me gustaría contarte un poco sobre mí. 
         Desde que descubrí el mundo de la programación, he encontrado una verdadera pasión por resolver 
         problemas y transformar ideas en realidades digitales. He aprendido tecnologías como Next.js, React, 
         y TypeScript, que me permiten expresar mi creatividad y seguir aprendiendo constantemente. También 

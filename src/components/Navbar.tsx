@@ -57,7 +57,11 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-
+            <div className="border-l-2 border-white h-6 mx-2"></div>
+            <Link href="/#technologies" onClick={() => setActiveLink('/#technologies')} className="text-white hover:text-yellow-400 transition duration-300 relative inline-flex items-center">
+              <span className="relative z-10">TECHNOLOGIES</span>
+              <span className={`underline ${activeLink === '/technologies' ? 'active-underline' : ''}`}></span>
+            </Link>
             <div className="border-l-2 border-white h-6 mx-2"></div>
             <button 
               onClick={toggleContactCard} 
@@ -98,6 +102,10 @@ export default function Navbar() {
               </Link>
             </div>
           )}
+
+            <Link href="/e#technologies" onClick={() => { setActiveLink('/#technologies'); toggleMenu(); }} className="block px-4 py-2 hover:bg-gray-700">
+                        TECHNOLOGIES
+          </Link>
 
           <button 
             onClick={() => { toggleContactCard(); toggleMenu(); }} 
