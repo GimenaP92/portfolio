@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import {  FaReact } from "react-icons/fa";
 import { SiAntdesign, SiOpenai, SiStrapi, SiTailwindcss } from "react-icons/si";
 
 const projects = [

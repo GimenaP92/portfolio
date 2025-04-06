@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaReact } from 'react-icons/fa';
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai, SiStrapi, SiReact, SiNestjs, SiPostgresql, SiRender, SiJsonwebtokens, SiMercadopago } from 'react-icons/si';
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiOpenai, SiStrapi,  SiNestjs, SiPostgresql } from 'react-icons/si';
 
 
 export default function ProjectsComponents() {

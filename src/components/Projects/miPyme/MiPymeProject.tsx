@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { SiJsonwebtokens, SiMercadopago, SiNestjs, SiNextdotjs, SiPostgresql, SiRender, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import RoleCards from './RoleCards';
