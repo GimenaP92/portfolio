@@ -66,7 +66,7 @@ export default function ProjectsComponents() {
           <li className="col-span-3 py-8">
   <Link href="/projects/miPyme" className="group block overflow-hidden">
     <Image
-      src="https://res.cloudinary.com/dbtfna8ev/image/upload/v1743897250/HomeMutual_iyvaps.png"
+      src="https://res.cloudinary.com/dbtfna8ev/image/upload/v1743915880/Captura_de_pantalla_2025-04-06_020356_ookasm.png"
       alt="miPyme"
       className="object-cover transition duration-500 group-hover:scale-105"
       width={1200}
